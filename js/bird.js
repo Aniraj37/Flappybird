@@ -30,17 +30,17 @@ class Bird {
         //!! --- Bird Image togglling ---
         this.image_index = 0;
         this.images = [
-            "../../Session9/image/Frame-1.png",
-            "../../Session9/image/Frame-2.png",
-            // "../../Session9/image/Frame-3.png",
-            // "../../Session9/image/Frame-4.png"
+            "../image/Frame-1.png",
+            "../image/Frame-2.png",
+            // "../image/Frame-3.png",
+            // "../image/Frame-4.png"
         ]
         this.image = new Image();
         this.image.src = this.images[this.image_index];
 
 
         //!! ---load the music for bird ---
-        this.background_music = new Audio("../../Session9/sounds/qubodup-cfork-ccby3-jump.ogg");
+        this.background_music = new Audio("../sounds/qubodup-cfork-ccby3-jump.ogg");
     }
 
 

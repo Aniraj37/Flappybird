@@ -22,10 +22,10 @@ class Pipe {
 
 
         this.up_pipe = new Image();
-        this.up_pipe.src = "../../Session10/image/pipe-up.png";
+        this.up_pipe.src = "../image/pipe-up.png";
 
         this.down_pipe = new Image();
-        this.down_pipe.src = "../../Session10/image/pipe-down.png";
+        this.down_pipe.src = "../image/pipe-down.png";
     }
 
 

@@ -23,7 +23,7 @@ class Background {
 
         //!! --- loading background image ---
         this.image = new Image();
-        this.image.src = "../../Session9/image/bg_night.png";
+        this.image.src = "../image/bg_night.png";
     }
 
 
